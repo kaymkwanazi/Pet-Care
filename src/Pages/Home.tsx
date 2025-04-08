@@ -6,6 +6,7 @@ import sitting from "../Images/pet-bed.png";
 import grooming from "../Images/catGroom.png";
 import { FaArrowRightLong, FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import NavBar from "../Components/NavBar";
+import About from "../Components/About";
 
 const Home: React.FC = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -152,6 +153,7 @@ const Home: React.FC = () => {
           </button>
         </div>
       </div>
+      <About />
     </>
   );
 };
