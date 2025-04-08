@@ -5,6 +5,7 @@ import vaccination from "../Images/vaccine.png";
 import sitting from "../Images/pet-bed.png";
 import grooming from "../Images/catGroom.png";
 import { FaArrowRightLong, FaChevronLeft, FaChevronRight } from "react-icons/fa6";
+import NavBar from "../Components/NavBar";
 
 const Home: React.FC = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -23,8 +24,9 @@ const Home: React.FC = () => {
 
   return (
     <>
+    <NavBar />
       <div
-        className="h-screen flex items-center bg-cover my-20 shadow-lg"
+        className="h-screen flex items-center bg-cover shadow-lg mb-20"
         style={{ backgroundImage: `url(${bgPic})` }}
       >
         <div className="container mx-auto px-40 text-white">
@@ -40,7 +42,7 @@ const Home: React.FC = () => {
       </div>
 
       <div className="container mx-auto px-4 text-center mb-10 flex flex-col items-center justify-center">
-        <h2 className="text-4xl font-semibold mb-5">Our Pet Care Services</h2>
+        <h2 className="text-4xl font-semibold mb-10">Our Pet Care Services</h2>
         <div className="relative w-full overflow-hidden">
           {/* Left Arrow */}
           <button
