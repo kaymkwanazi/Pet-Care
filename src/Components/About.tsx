@@ -1,6 +1,6 @@
 import React from 'react'
 import paw from '../Images/paw.png'
-
+import aboutPic from'../Images/Image-about.webp'
 const About: React.FC = () => {
   return (
     <>
@@ -12,11 +12,20 @@ const About: React.FC = () => {
                 We have successfully cured thousands of pets, from dog and cat to exotic pets such as parrots, monkeys, etc.
             </p>
             <div>
-            <img src={paw}
-                className='w-10 h-10 mb-4'
-                alt='paw icon'
-            />
+              <img src={paw}
+                  className='w-10 h-10 mb-4'
+                  alt='paw icon'
+              />  
             </div>
+        </div>
+
+        <div>
+          <img
+            src={aboutPic}
+            alt='About Us'
+            className='w-full h-full object-cover rounded-lg'
+            style={{ maxWidth: '100%', maxHeight: '100%' }}
+          />
         </div>
 
     </div>
