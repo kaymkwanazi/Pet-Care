@@ -7,7 +7,8 @@ import grooming from "../Images/catGroom.png";
 import { FaArrowRightLong, FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import NavBar from "../Components/NavBar";
 import About from "../Components/About";
- 
+import Pricing from "../Components/Pricing";
+
 const Home: React.FC = () => {
   const cards: { id: number; title: string; description: string; image: string }[] = [
     {
@@ -77,7 +78,7 @@ const Home: React.FC = () => {
         </div>
       </div>
  
-      <div className="container mx-auto px-4 text-center mb-10 flex flex-col items-center justify-center">
+      <div className="container mx-auto text-center mb-10 flex flex-col items-center justify-center">
         <h2 className="text-4xl font-semibold mb-10">Our Pet Care Services</h2>
         <div className="relative w-full">
           {/* Left Arrow */}
@@ -124,6 +125,7 @@ const Home: React.FC = () => {
         </div>
       </div>
       <About />
+      <Pricing />
     </>
   );
 };
