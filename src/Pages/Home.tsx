@@ -8,6 +8,7 @@ import { FaArrowRightLong, FaChevronLeft, FaChevronRight } from "react-icons/fa6
 import NavBar from "../Components/NavBar";
 import About from "../Components/About";
 import Pricing from "../Components/Pricing";
+import Testimonials from "../Components/Testimonials";
 
 const Home: React.FC = () => {
   const cards: { id: number; title: string; description: string; image: string }[] = [
@@ -126,6 +127,7 @@ const Home: React.FC = () => {
       </div>
       <About />
       <Pricing />
+      <Testimonials />
     </>
   );
 };
