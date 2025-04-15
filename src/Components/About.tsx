@@ -1,6 +1,7 @@
 import React from 'react';
 import paw from '../Images/paw.png';
 import aboutPic from '../Images/Image-about.webp';
+import dogGif from '../Images/dog-gif.gif'
 
 const About: React.FC = () => {
   const pawItems = [
@@ -26,10 +27,10 @@ const About: React.FC = () => {
 
   return (
     <>
-      <div className="container mx-auto px-4 grid grid-cols-2 my-20 gap-4">
+      <div className="container mx-auto px-4 grid grid-cols-2 my-20 gap-10">
         {/* Left side */}
         <div className="flex flex-col">
-          <h1 className="font-bold text-5xl mb-10">
+          <h1 className="font-bold text-5xl py-5">
             We Do Our Best to Keep Your Pets Healthy
           </h1>
           <p className="text-gray-700 mb-10 text-2xl font-light">
@@ -80,6 +81,14 @@ const About: React.FC = () => {
             </div>
           </div>
         ))}
+      </div>
+      {/* Gif */}
+      <div className='container mx-auto px-4 flex items-center justify-center my-10'>
+        <img src={dogGif} 
+          alt="Dog Gif" 
+          className="w-full h-1/3 object-cover rounded-lg"
+        />
+
       </div>
     </>
   );
