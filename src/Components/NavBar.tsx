@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../Images/vetLogo.avif'
 import { FaFacebookSquare, FaInstagramSquare, FaYoutubeSquare } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 
 const NavBar: React.FC = () =>{
@@ -8,7 +9,10 @@ const NavBar: React.FC = () =>{
     <>
     <nav className="w-full">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+          <Link to='/' >
             <img src={logo} alt="Logo" className="size-20" /> 
+          </Link>
+            
             <ul className="flex space-x-10 font-medium">
                 {/* <li><a href="#home" className="text-gray-700 hover:text-blue-600">Home</a></li> */}
                 <li><a href="#services" className="text-gray-700 hover:text-blue-600">Services</a></li>

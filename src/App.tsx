@@ -3,7 +3,7 @@ import './index.css';
 import Home from './Pages/Home';
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import NavBar from './Components/NavBar';
-import About from './Components/About';
+import About from './Components/Services';
 
 const App: React.FC = () => {
   return (
