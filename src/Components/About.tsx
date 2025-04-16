@@ -83,7 +83,7 @@ const About: React.FC = () => {
         ))}
       </div>
       {/* Gif */}
-      <div className='container mx-auto flex items-center justify-center my-10'>
+      <div className='container mx-auto flex items-center justify-center my-10 pb-10'>
         <img src={dogGif} 
           alt="Dog Gif" 
           className="w-full h-1/3 object-cover rounded-lg"

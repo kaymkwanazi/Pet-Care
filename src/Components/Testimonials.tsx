@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import adonis from '../Images/Adonis.jpg'
 import goldenPuppy from '../Images/golden-puppy.gif'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa6';
+import paw from '../Images/bluepaw.webp'
 
 interface Testimonial {
     id: number;
@@ -83,6 +84,23 @@ const Testimonials:React.FC = () => {
         </button>
       </div>
     </div>
+    
+       {/* Background Image with Text */}
+       <div className="relative w-full h-[400px] my-10 flex justify-center items-center text-white font-medium">
+        <img
+            src={paw}
+            alt="pawBg"
+            className=" h-full object-cover rounded-lg"
+        />
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
+            <h2 className="text-center">
+                We provide care that your precious pet deserves
+            </h2>
+            <p className="text-4xl mt-3 text-center">Do you urgently need a veterinarian? </p>
+            <p className='text-4xl'>Just call us at +27 12 665 8989</p>
+            <p className='mt-5'>For emergencies, we have a veterinarian on duty after closure of the clinic.</p>
+        </div>
+        </div>
     </>
    
   )

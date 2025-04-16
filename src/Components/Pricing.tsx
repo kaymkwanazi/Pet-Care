@@ -73,7 +73,7 @@ const Pricing: React.FC = () => {
   }
 
   return (
-    <div className="container mx-auto my-10 pt-10 grid cols-1 md:grid-cols-2 gap-28">
+    <div className="container mx-auto my-10 py-10 grid cols-1 md:grid-cols-2 gap-28">
         <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-5">Pricing Plans and Our Services</h1>
             <p className="font-light text-lg mb-10">
