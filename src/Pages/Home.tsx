@@ -9,6 +9,7 @@ import NavBar from "../Components/NavBar";
 import About from "../Components/About";
 import Pricing from "../Components/Pricing";
 import Testimonials from "../Components/Testimonials";
+import Footer from "../Components/Footer";
 
 const Home: React.FC = () => {
   const cards: { id: number; title: string; description: string; image: string }[] = [
@@ -128,6 +129,7 @@ const Home: React.FC = () => {
       <About />
       <Pricing />
       <Testimonials />
+      <Footer />
     </>
   );
 };
