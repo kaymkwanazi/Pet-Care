@@ -16,8 +16,8 @@ const NavBar: React.FC = () =>{
             <ul className="flex space-x-10 font-medium">
                 {/* <li><a href="#home" className="text-gray-700 hover:text-blue-600">Home</a></li> */}
                 <li><a href="#services" className="text-gray-700 hover:text-blue-600">Services</a></li>
-                <li><a href="#about" className="text-gray-700 hover:text-blue-600">Testimonials</a></li>
-                <li><a href="#contact" className="text-gray-700 hover:text-blue-600">Pricing</a></li>
+                <li><a href="#testimonials" className="text-gray-700 hover:text-blue-600">Testimonials</a></li>
+                <li><a href="#pricing" className="text-gray-700 hover:text-blue-600">Pricing</a></li>
                 <li><a href="#contact" className="text-gray-700 hover:text-blue-600">Contact Us</a></li>
             </ul>
             <div className='flex space-x-4'>

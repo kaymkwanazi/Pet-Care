@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import adonis from '../Images/Adonis.jpg'
 import goldenPuppy from '../Images/golden-puppy.gif'
+import parrot from '../Images/parrot.jpg'
+import hamster from '../Images/hamster.jpg'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa6';
 import paw from '../Images/bluepaw.webp'
 
@@ -28,6 +30,20 @@ const Testimonials:React.FC = () => {
             image: goldenPuppy,
             age: "6 months",
         },
+        {
+            id: 3,
+            name: "Milo",
+            text: "“I am very grateful to the veterinarians of this clinic for their professionalism and care. They always take the time to explain everything to my parents and make sure I am comfortable during my visits. I highly recommend this clinic to all pet owners.”",
+            image: parrot,
+            age: "2 years",
+        },
+        {
+            id: 4,
+            name: "Bella",
+            text: "“I had a great experience at this veterinary clinic. The staff was friendly and knowledgeable, and they took excellent care of me during my visit. I felt safe and well-cared for, and I would definitely recommend this clinic to other pet owners.”",
+            image: hamster,
+            age: "1 year",
+        }
     ];
     
     const [currentIndex, setCurrentIndex] = useState(0);
