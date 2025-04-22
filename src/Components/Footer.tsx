@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
   }
   return (
     <>
-      <div className="container mx-auto px-4 py-5 flex flex-col md:flex-row justify-between items-center space-y-10 md:space-y-0">
+      <div className="container mx-auto px-4  flex flex-col md:flex-row justify-between items-center space-y-10 md:space-y-0">
         {/* Logo Section */}
         <div className="flex flex-col items-center">
           <img src={logo} alt="Logo" className="size-44 mb-3" />
@@ -52,16 +52,16 @@ const Footer: React.FC = () => {
             <FaInstagramSquare size={28} className="text-pink-600" />
             <FaYoutubeSquare size={28} className="text-red-600" />
           </div>
-        </div>
-
-        {/* Back to top */}
-        <div>
-          <button
-            onClick={scrollToTop}
-            className="text-gray-500 rounded-full"
-            >
-            <IoIosArrowUp size={36} className="text-gray-500" />
-            </button>
+            {/* Back to top */}
+          <div className='flex flex-col justify-center items-center mt-5'>
+            <button
+              onClick={scrollToTop}
+              className=" rounded-full"
+              >
+              <IoIosArrowUp size={36} className="text-blue-400" />
+              </button>
+              <p className='font-light text-xs'>Back to Top</p>
+          </div>
         </div>
       </div>
 
