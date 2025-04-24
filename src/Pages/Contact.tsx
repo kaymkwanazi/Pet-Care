@@ -61,7 +61,6 @@ const Contact:React.FC = () => {
         </div>
     </div>
     <div className='container mx-auto px-5 mb-10'>
-        <p className='font-extralight'>We are located in the heart of Pretoria, South Africa. You can find us on the map below.</p>
         <img src={map} alt="map" className='w-full h-96 object-cover' />
     </div>
    </>
