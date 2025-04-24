@@ -60,9 +60,15 @@ const Contact:React.FC = () => {
             </form>
         </div>
     </div>
-    <div className='container mx-auto px-5 mb-10'>
-        <img src={map} alt="map" className='w-full h-96 object-cover' />
-    </div>
+    <div className="container mx-auto px-5 mb-10">
+        {/* Embedded Map */}
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.7043501135054!2d28.18639708057127!3d-25.74728891898769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9563bfac9cc4ab%3A0x5f883de003f0789c!2sCentre%20Walk!5e0!3m2!1sen!2sza!4v1745488277992!5m2!1sen!2sza" 
+        width="100%" 
+        height="450" 
+        style={{border:0}} 
+        loading="lazy" 
+        ></iframe>
+      </div>
    </>
   )
 }

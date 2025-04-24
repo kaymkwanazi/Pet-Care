@@ -13,7 +13,7 @@ import Services from "../Components/Services";
 const Home: React.FC = () => {
 return (
 <>
-      {/* <NavBar /> */}
+    
       <div
             className="h-screen flex items-center bg-cover shadow-lg mb-20"
             style={{ backgroundImage: `url(${bgPic})` }}
@@ -42,7 +42,7 @@ return (
       <div id="testimonials">
             <Testimonials />
       </div>
-      {/* <Footer /> */}
+     
 </>
 );
 };
