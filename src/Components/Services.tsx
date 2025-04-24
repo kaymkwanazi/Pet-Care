@@ -90,7 +90,7 @@ const Services: React.FC = () => {
           {/* Left Arrow */}
           <button
             onClick={scrollLeft}
-            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white p-3 rounded-full hover:bg-gray-200 transition"
+            className="absolute left-[-70px] top-1/2 transform -translate-y-1/2 bg-white p-3 rounded-full hover:bg-gray-200 transition"
           >
             <FaChevronLeft />
           </button>
@@ -124,7 +124,7 @@ const Services: React.FC = () => {
           {/* Right Arrow */}
           <button
             onClick={scrollRight}
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white p-3 rounded-full hover:bg-gray-200 transition"
+            className="absolute right-[-70px] top-1/2 transform -translate-y-1/2 bg-white p-3 rounded-full hover:bg-gray-200 transition"
           >
             <FaChevronRight />
           </button>
