@@ -32,30 +32,30 @@ const Contact:React.FC = () => {
             </div>
         </div>
         {/* Column 2 */}
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center my-10'>
             <form>
                 <input
                     type="text"
                     placeholder="Enter your name"
                     required
-                    className="border border-gray-300 rounded-md p-2 w-full mb-4"
+                    className="border border-blue-300 rounded-md p-2 w-full mb-4"
                 />
                 <input
                     type="email"
                     placeholder="Enter your email"
                     required
-                    className="border border-gray-300 rounded-md p-2 w-full mb-4"
+                    className="border border-blue-300 rounded-md p-2 w-full mb-4"
                 />
                 <input
                     type="text"
                     placeholder="Enter your phone number"
                     required
-                    className="border border-gray-300 rounded-md p-2 w-full mb-4"
+                    className="border border-blue-300 rounded-md p-2 w-full mb-4"
                 />
                 <textarea
                     placeholder="Enter your message"
                     required
-                    className="border border-gray-300 rounded-md p-2 w-full mb-4 h-32"
+                    className="border border-blue-300 rounded-md p-2 w-full mb-4 h-32"
                 ></textarea>
             </form>
         </div>
