@@ -8,7 +8,7 @@ const NavBar: React.FC = () =>{
   return (
     <>
     <nav className="w-full">
-        <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div className="container mx-auto px-4 py-2 flex justify-between items-center">
           <Link to='/' >
             <img src={logo} alt="Logo" className="size-20" /> 
           </Link>

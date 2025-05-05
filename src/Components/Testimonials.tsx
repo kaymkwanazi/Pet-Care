@@ -62,7 +62,7 @@ const Testimonials:React.FC = () => {
     
   return (
     <>
-    <div className='flex flex-col my-20'>
+    <div className='flex flex-col my-10'>
         <h1 className='font-bold text-4xl text-center mb-10'>What Our Clients Say</h1>
         {/* left arrow */}
         <div className="relative w-full flex justify-center items-center">
@@ -75,7 +75,7 @@ const Testimonials:React.FC = () => {
         </button>
 
         {/* Single Testimonial Display */}
-        <div className="flex justify-center items-center w-full">
+        <div className="flex justify-center items-center w-full mb-12">
           <div
             key={testimonials[currentIndex].id}
             className="flex flex-col items-center justify-between min-w-[300px] max-w-[400px] h-[300px]  p-5"
@@ -109,12 +109,12 @@ const Testimonials:React.FC = () => {
             className=" h-full object-cover rounded-lg"
         />
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
-            <h2 className="text-center">
+            <h2 className="text-lg text-center">
                 We provide care that your precious pet deserves
             </h2>
             <p className="text-4xl mt-3 text-center">Do you urgently need a veterinarian? </p>
             <p className='text-4xl'>Just call us at +27 12 665 8989</p>
-            <p className='mt-5'>For emergencies, we have a veterinarian on duty after closure of the clinic.</p>
+            <p className='text-lg mt-5'>For emergencies, we have a veterinarian on duty after closure of the clinic.</p>
         </div>
         </div>
     </>
