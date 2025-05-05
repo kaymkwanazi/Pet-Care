@@ -8,7 +8,7 @@ const Contact:React.FC = () => {
     <div className='container mx-auto px-5 grid grid-cols-2 gap-5 my-20'>
            {/* Column 1 */}
         <div>
-            <h1 className='font-bold text-6xl mb-5'>Have Questions?</h1>
+            <h1 className='font-bold text-5xl mb-5'>Have Questions?</h1>
             <p className='font-extralight'>Feel free to contact us to ask any question or book an appointment with a veterinarian.</p>
             <div className='flex gap-10 mt-8'>
                 <p className='font-medium text-blue-500 text-lg'>Address: </p>
