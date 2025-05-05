@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Services from "../Components/Services";
 import Pricing from "../Components/Pricing";
 import Testimonials from "../Components/Testimonials";
+import Contact from "./Contact";
 
 const Home: React.FC = () => {
   return (
@@ -38,6 +39,9 @@ const Home: React.FC = () => {
       </div>
       <div id="testimonials" className="px-4 sm:px-10 md:px-20 lg:px-40">
         <Testimonials />
+      </div>
+      <div id="contact" className="px-4 sm:px-10 md:px-20 lg:px-40">
+        <Contact />
       </div>
     </>
   );

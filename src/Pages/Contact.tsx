@@ -5,10 +5,10 @@ const Contact:React.FC = () => {
   return (
    <>
 
-    <div className='container mx-auto px-5 grid grid-cols-2 gap-5 my-10'>
+    <div className='container mx-auto px-5 grid grid-cols-2 gap-5 my-20'>
            {/* Column 1 */}
         <div>
-            <h1 className='font-bold text-4xl mb-5'>Have Questions?</h1>
+            <h1 className='font-bold text-6xl mb-5'>Have Questions?</h1>
             <p className='font-extralight'>Feel free to contact us to ask any question or book an appointment with a veterinarian.</p>
             <div className='flex gap-10 mt-8'>
                 <p className='font-medium text-blue-500 text-lg'>Address: </p>
@@ -32,7 +32,7 @@ const Contact:React.FC = () => {
             </div>
         </div>
         {/* Column 2 */}
-        <div className='flex flex-col justify-center items-center my-10'>
+        <div className='flex flex-col justify-center items-center mt-10'>
             <form>
                 <input
                     type="text"
@@ -64,9 +64,8 @@ const Contact:React.FC = () => {
         {/* Embedded Map */}
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.7043501135054!2d28.18639708057127!3d-25.74728891898769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9563bfac9cc4ab%3A0x5f883de003f0789c!2sCentre%20Walk!5e0!3m2!1sen!2sza!4v1745488277992!5m2!1sen!2sza" 
         width="100%" 
-        height="450" 
-        style={{border:0}} 
-        loading="lazy" 
+        height="500" 
+        style={{border:0}}
         ></iframe>
       </div>
    </>

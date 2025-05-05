@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import paw from '../Images/paw.png';
 import aboutPic from '../Images/Image-about.webp';
 import dogGif from '../Images/dog-gif.gif'
@@ -41,6 +41,7 @@ const Services: React.FC = () => {
         },
       ];
       const [startIndex, setStartIndex] = useState(0);
+    
       const scrollLeft = () => {
         setStartIndex((prevIndex) =>
           prevIndex === 0 ? cards.length - 3 : prevIndex - 1

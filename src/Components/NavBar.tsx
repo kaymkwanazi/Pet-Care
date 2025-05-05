@@ -18,7 +18,7 @@ const NavBar: React.FC = () =>{
                 <li><a href="#services" className="text-gray-700 hover:text-blue-600">Services</a></li>
                 <li><a href="#testimonials" className="text-gray-700 hover:text-blue-600">Testimonials</a></li>
                 <li><a href="#pricing" className="text-gray-700 hover:text-blue-600">Pricing</a></li>
-                <li><a href="/contact" className="text-gray-700 hover:text-blue-600">Contact Us</a></li>
+                <li><a href="#contact" className="text-gray-700 hover:text-blue-600">Contact Us</a></li>
             </ul>
             <div className='flex space-x-4'>
                 <FaFacebookSquare size={28} className='text-blue-700'/>
